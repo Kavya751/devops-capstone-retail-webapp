@@ -89,30 +89,30 @@ http://localhost:3000
 
 ## Docker Build, Tag, Push
 
-Replace `murughan1985` with your Docker Hub username.
+Replace `kavya751` with your Docker Hub username.
 
 ### Frontend
 ```bash
-docker build -t murughan1985/novacart-frontend:v1 ./frontend
-docker tag murughan1985/novacart-frontend:v1 murughan1985/novacart-frontend:latest
-docker push murughan1985/novacart-frontend:v1
-docker push murughan1985/novacart-frontend:latest
+docker build -t kavya751/novacart-frontend:v1 ./frontend
+docker tag kavya751/novacart-frontend:v1 kavya751/novacart-frontend:latest
+docker push kavya751/novacart-frontend:v1
+docker push kavya751/novacart-frontend:latest
 ```
 
 ### Product Service
 ```bash
-docker build -t murughan1985/novacart-product-service:v1 ./product-service
-docker tag murughan1985/novacart-product-service:v1 murughan1985/novacart-product-service:latest
-docker push murughan1985/novacart-product-service:v1
-docker push murughan1985/novacart-product-service:latest
+docker build -t kavya751/novacart-product-service:v1 ./product-service
+docker tag kavya751/novacart-product-service:v1 kavya751/novacart-product-service:latest
+docker push kavya751/novacart-product-service:v1
+docker push kavya751/novacart-product-service:latest
 ```
 
 ### Cart Service
 ```bash
-docker build -t murughan1985/novacart-cart-service:v1 ./cart-service
-docker tag murughan1985/novacart-cart-service:v1 murughan1985/novacart-cart-service:latest
-docker push murughan1985/novacart-cart-service:v1
-docker push murughan1985/novacart-cart-service:latest
+docker build -t kavya751/novacart-cart-service:v1 ./cart-service
+docker tag kavya751/novacart-cart-service:v1 kavya751/novacart-cart-service:latest
+docker push kavya751/novacart-cart-service:v1
+docker push kavya751/novacart-cart-service:latest
 ```
 
 ## GitHub Actions CI/CD
@@ -137,7 +137,7 @@ Required repository secrets:
 
 ## Kubernetes Deployment (Kind)
 
-Before applying manifests, update image names in `k8s/*.yaml` from `murughan1985/...` to your Docker Hub username.
+Before applying manifests, update image names in `k8s/*.yaml` from `kavya751/...` to your Docker Hub username.
 
 ### Create Kind cluster
 ```bash
