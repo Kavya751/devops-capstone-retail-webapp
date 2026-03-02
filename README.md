@@ -161,7 +161,7 @@ Frontend is exposed via NodePort `30080`:
 ```text
 kubectl port-forward svc/frontend 3000:3000
 
-http://localhost:30080
+http://localhost:3000
 ```
 
 ### Scale deployments
